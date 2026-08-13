@@ -60,18 +60,9 @@ def main():
     print("Welcome to the Career Path Expert System!")
 
     print("\nAvailable interests:")
-    print("maths")
-    print("programming")
-    print("mechanics")
-    print("anatomy")
-    print("pharmacology")
-    print("circuits")
-    print("legal writing")
-    print("constitutional law")
-    print("advertising")
-    print("digital media")
-    print("urban planning")
-    print("architectural design")
+    print("1. maths \n 2. programming \n 3. mechanics \n 4. anatomy \n 5. pharmacology \n 6. ciruits \n 7. legal writing \n 8. constitutional law \n 9. advertising \n 10. digital media \n 11. urban planning \n 12. architechtural design")
+
+   
 
     interests = input("\nEnter your interests separated by commas: ").lower().split(',')
 
